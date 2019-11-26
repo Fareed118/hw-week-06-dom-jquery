@@ -45,7 +45,7 @@ $("#button2").on('click', question2);
 
 function question3(){
 	// your answer here
-		$(".falseFact").html("True Fact");
+		$(".falseFact").text("True Fact");
 }
 
 $("#button3").on('click', question3);
